@@ -2,8 +2,9 @@
 
 import os
 
-os.getcwd()    # Pega o dir atual
 cont = 0
+
+os.getcwd()    # Pega o dir atual
 
 for fileName in os.listdir("."):
     if "data" in fileName or "index" in fileName:
